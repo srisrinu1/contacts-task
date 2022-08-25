@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import Contacts from './components/Contacts'
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-     <Contacts/>
+      <Header/>
+      <Contacts/>
     </div>
   );
 }
